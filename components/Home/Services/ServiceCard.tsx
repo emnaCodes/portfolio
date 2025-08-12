@@ -10,7 +10,7 @@ type Props={
 }
 
 
-const ServiceCard = ({description, icon, name }:Props => ) => {
+const ServiceCard = ({description, icon, name }: Props ) => {
   return (
     <div>
       <Image src={icon} alt='img' width={60} height={60} />
