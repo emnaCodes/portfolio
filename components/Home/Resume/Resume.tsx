@@ -1,4 +1,8 @@
 import React from 'react'
+import ResumeCard from './ResumeCard'
+import { FaCodepen, FaReact } from 'react-icons/fa'
+import { BsDatabase } from 'react-icons/bs'
+import { BiBadge } from 'react-icons/bi'
 
 const Resume = () => {
   return (
@@ -9,11 +13,34 @@ const Resume = () => {
                 <h1 className='text-3xl sm:text-4xl font-bold text-white'>
                     My Work <span className='text-cyan-200'> Experience</span>
                 </h1>
+                <div className='mt-10' data-aos="zoom-in" data-aos-anchor-placement="top-center" >
+                    <ResumeCard Icon={FaCodepen} role='Full-Stack Developer' />
+                    <ResumeCard Icon={FaReact} role='Front-End Developer' />
+                    <ResumeCard Icon={BsDatabase} role='Backend Developer' />
+
+                </div>
+            </div >
+            {/* Education PART    */}
+            <div>
+                <h1 className='text-3xl sm:text-4xl font-bold text-white'>
+                    My  <span className='text-cyan-200'> Education</span>
+                </h1>
+                <div className='mt-10' data-aos="zoom-out" data-aos-anchor-placement="top-center" data-aos-delay="300">
+                    <ResumeCard
+                        Icon={FaReact} 
+                        role="Bachelor's degree in Experimental Sciences" 
+                        date=' 2021 '/>
+                    <ResumeCard 
+                        Icon={FaReact} 
+                        role="Bachelor's degree in Computer Science" 
+                        date='Sep 2021 - Mai 2024 ' />
+                    <ResumeCard 
+                        Icon={FaReact} 
+                        role="Engineering degree in Computer Science, specializing in Cloud Computing" 
+                        date='Sep 2024 - Present ' />
+                </div>
             </div>
-            {/* WORK PART    */}
-            <div>EDUCATIONPART</div>
         </div>
-      Resume
     </div>
   )
 }
