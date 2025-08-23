@@ -18,6 +18,7 @@
     "react-dom": "19.1.0",
     "react-multi-carousel": "^2.8.6",
     "react-parallax-tilt": "^1.7.304",
+    "resend": "^6.0.1",
     "typewriter-effect": "^2.22.0"
   },
   "devDependencies": {
@@ -25,6 +26,7 @@
     "@tailwindcss/postcss": "^4",
     "@types/aos": "^3.0.7",
     "@types/node": "^20",
+    "@types/prop-types": "^15.7.15",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "@types/react-icons": "^3.0.0",

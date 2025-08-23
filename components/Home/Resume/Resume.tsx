@@ -2,7 +2,6 @@ import React from 'react'
 import ResumeCard from './ResumeCard'
 import { FaCodepen, FaReact } from 'react-icons/fa'
 import { BsDatabase } from 'react-icons/bs'
-import { BiBadge } from 'react-icons/bi'
 
 const Resume = () => {
   return (

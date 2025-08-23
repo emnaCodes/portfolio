@@ -20,12 +20,12 @@ const Hero = () => {
         data-aos="fade-up"
         />
         <h1 data-aos="fade-up" data-aos-delay="200" className='text-2xl sm:text-4xl md:text-5xl lg:text-6xl mt-6 text-center font-bold -tracking-wide'> 
-          Hello! I'm 
+          Hello! I&aposm 
           <span className='text-cyan-200'>EMNOUCHAAA </span>
           <br />halloooooooooooooooo
         </h1>
         <h2 data-aos="fade-up" data-aos-delay="400" className='mt-5 text-sm px--2 text-center sm:text-2xl font-medium flex items-center'>
-          Hi! I'm Emna - A Passionate Web Developper
+          Hi! I&aposm Emna - A Passionate Web Developper
           <span className='text-cyan-200 font-bold'>
             <Typewriter  options={{
               strings:[
