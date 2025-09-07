@@ -20,7 +20,7 @@ const Hero = () => {
         data-aos="fade-up"
         />
         <h1 data-aos="fade-up" data-aos-delay="200" className='text-2xl sm:text-4xl md:text-5xl lg:text-6xl mt-6 text-center font-bold -tracking-wide'> 
-          Greetings! I am 
+          Greetings! I am a
           <br /><span className='text-cyan-200'> Emna Trabelsi  </span>
          
         </h1>
