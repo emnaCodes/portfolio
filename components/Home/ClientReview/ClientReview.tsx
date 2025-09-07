@@ -31,25 +31,7 @@ const ClientReview = () => {
       <h1 className='text-center text-2xl md:text-4xl xl:text-5xl font-bold text-white'>
         Kinds words from satisfied <span className='text-cyan-300'>clients</span>
       </h1>
-      <div className='mt-16 w-[70%] mx-auto'>
-        <Carousel
-            showDots={false}
-            responsive={responsive}
-            infinite={true}
-            autoPlay={true}
-            autoPlaySpeed={4000}
-        >
-            
-
-            <ClientReviewCard  
-            image='/images/dalii.jpg' 
-            name='Dali' 
-            role='CEO of KOYOTEK'/>
-
-            
-
-        </Carousel>
-      </div>
+      
     </div>
   )
 }
