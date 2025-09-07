@@ -5,7 +5,7 @@ import { BsDatabase } from 'react-icons/bs'
 
 const Resume = () => {
   return (
-    <div className='pt-20 pb-16'>
+    <div id="resume" className='pt-20 pb-16'>
         <div className='w-[90%] sm:w-[70%] mx-auto grid grid-cols-1 xl:grid-cols-2 gap-10'>
             {/* WORK PART    */}
             <div>
@@ -25,10 +25,6 @@ const Resume = () => {
                     My  <span className='text-cyan-200'> Education</span>
                 </h1>
                 <div className='mt-10' data-aos="zoom-out" data-aos-anchor-placement="top-center" data-aos-delay="300">
-                    <ResumeCard
-                        Icon={FaReact} 
-                        role="Bachelor's degree in Experimental Sciences" 
-                        date=' 2021 '/>
                     <ResumeCard 
                         Icon={FaReact} 
                         role="Bachelor's degree in Computer Science" 

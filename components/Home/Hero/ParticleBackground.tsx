@@ -47,9 +47,9 @@ export default function ParticlesHero() {
         },
       },
       particles: {
-        color: { value: "#ffffff" },
+        color: { value: "#5eead4" },
         links: {
-          color: "#ffffff",
+          color: "#5eead4",
           distance: 150,
           enable: true,
           opacity: 0.4,
@@ -67,7 +67,7 @@ export default function ParticlesHero() {
         },
         opacity: { value: 0.5 },
         shape: { type: "circle" },
-        size: { value: { min: 1, max: 4 } },
+        size: { value: { min: 1, max: 5 } },
       },
       detectRetina: true,
     }),

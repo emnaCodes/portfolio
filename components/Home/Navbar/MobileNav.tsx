@@ -20,11 +20,12 @@ const MobileNav = ({closeNav,showNav}:Props) => {
       <div className={`fixed inset-0 ${navOpen} transform transition-all right-0 duration-500 z-[100002] bg-black opacity-70 w-full h-screen`}></div>
 
       {/* navlinks */}
-      <div className={`text-white ${navOpen} fixed justify-center flex flex-col h-full transform transition-all duration-500 delay-300 w-[80%] sm:w-[to-60%] bg-cyan-800 space-y-6 z-[100050] right-0`}>
+      <div className={`text-white ${navOpen} fixed justify-center flex flex-col h-full transform transition-all duration-500 delay-300 w-[80%] sm:w-[to-60%] space-y-6 z-[100050] right-0`}
+      style={{ backgroundColor: 'bg-blue-10000' }}>
         {NavLinks.map((link)=>{
                 return (
                     <Link key={link.id} href={link.url} >
-                        <p className='text-white w-fit text-xl ml-12 border-b-[1.5px] pb-1 border-white sm:text-[30px]'>
+                        <p className='text-white   hover:text-cyan-300 w-fit text-xl ml-12 border-b-[1.5px] pb-1 border-white sm:text-[30px]'>
                             {link.label}
                         </p>
                     </Link>

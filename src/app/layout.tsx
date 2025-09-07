@@ -33,7 +33,7 @@ export default function RootLayout({
       <body className={`${font.className} antialiased bg-[#0d0d1f]`}>
         {loading ? (
           <div style={{ display: "flex", justifyContent: "center", alignItems: "center", height: "100vh" }}>
-            <Ripple color="#d36ac2" size={100} thickness={7} />
+            <Ripple color="#5eead4" size={100} thickness={7} />
           </div>
         ) : (
           <>

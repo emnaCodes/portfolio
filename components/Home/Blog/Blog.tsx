@@ -14,28 +14,11 @@ const Blog = () => {
           data-aos-anchor-placement="top-center" 
           data-aos-delay="0">
             <BlogCard 
-                image='/images/emna.jpg'
+                image='/images/play.jpg'
                 title='learn how to build an amazing portfolio website using next js'
             />
         </div>
-        <div
-          data-aos="fade-right" 
-          data-aos-anchor-placement="top-center" 
-          data-aos-delay="100">
-            <BlogCard 
-                image='/images/emna.jpg'
-                title='learn how to build an amazing portfolio website using next js'
-            />
-        </div>
-        <div
-          data-aos="fade-right" 
-          data-aos-anchor-placement="top-center" 
-          data-aos-delay="200">
-            <BlogCard 
-                image='/images/emna.jpg'
-                title='learn how to build an amazing portfolio website using next js'
-            />
-        </div>
+        
       </div>
     </div>
   )

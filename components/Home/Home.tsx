@@ -27,9 +27,6 @@ const Home = () => {
     initAOS();
   }, []);
 
-  
-
-
 
 
   return (

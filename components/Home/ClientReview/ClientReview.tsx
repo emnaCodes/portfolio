@@ -27,7 +27,7 @@ const responsive = {
 
 const ClientReview = () => {
   return (
-    <div className='pt-16 pb-16'>
+    <div id="testimonials" className='pt-16 pb-16'>
       <h1 className='text-center text-2xl md:text-4xl xl:text-5xl font-bold text-white'>
         Kinds words from satisfied <span className='text-cyan-300'>clients</span>
       </h1>
@@ -39,20 +39,14 @@ const ClientReview = () => {
             autoPlay={true}
             autoPlaySpeed={4000}
         >
-            <ClientReviewCard  
-            image='/images/emna.jpg' 
-            name='Emnouccha' 
-            role='Directrice'/>
+            
 
             <ClientReviewCard  
-            image='/images/emna.jpg' 
+            image='/images/dalii.jpg' 
             name='Dali' 
             role='CEO of KOYOTEK'/>
 
-            <ClientReviewCard  
-            image='/images/emna.jpg' 
-            name='BACHRA' 
-            role='AAAAAAA'/>
+            
 
         </Carousel>
       </div>

@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 const Projects = () => {
   return (
-    <div className='pt-16 pb-16'>
+    <div id="works"className='pt-16 pb-16'>
       <h1 className='text-center text-2xl md:text-4xl xl:text-5xl font-bold text-white'>
         A small selection of recent <br /> <span className='text-cyan-300'> projects</span>
       </h1>
@@ -15,17 +15,17 @@ const Projects = () => {
         data-aos-anchor-placement="top-center" 
         >
             <Image 
-            src='/images/emna.jpg' 
+            src='/images/p1.png' 
             alt='img' 
             width={800} 
             height={650} 
             className='rounded-lg'
             />
             <h1 className='mt-4 text-xl sm:text-2xl font-semibold text-white'>
-                nhot un titre de mon projet
+                Goal Management Application
             </h1>
             <h1 className='pt-2 font-medium text-white/80 '>
-            Apps, UI/UX</h1>
+            APython</h1>
 
         </div>
 
@@ -35,17 +35,17 @@ const Projects = () => {
         data-aos-anchor-placement="top-center" 
         data-aos-delay="100">
             <Image 
-            src='/images/emna.jpg' 
+            src='/images/p2.png' 
             alt='img' 
             width={800} 
             height={650} 
             className='rounded-lg'
             />
             <h1 className='mt-4 text-xl sm:text-2xl font-semibold text-white'>
-                nhot un titre de mon projet
+                Billing Management System 
             </h1>
             <h1 className='pt-2 font-medium text-white/80 '>
-            Apps, UI/UX</h1>
+            Spring & Angular</h1>
 
         </div>
 
@@ -55,17 +55,17 @@ const Projects = () => {
         data-aos-anchor-placement="top-center" 
         data-aos-delay="200">
             <Image 
-            src='/images/emna.jpg' 
+            src='/images/p3.jpg' 
             alt='img' 
             width={800} 
             height={650} 
             className='rounded-lg'
             />
             <h1 className='mt-4 text-xl sm:text-2xl font-semibold text-white'>
-                nhot un titre de mon projet
+                Medical Records Management – Web & Desktop App
             </h1>
             <h1 className='pt-2 font-medium text-white/80 '>
-            Apps, UI/UX
+            Symfony & JavaFx
             </h1>
         </div>
       </div>
