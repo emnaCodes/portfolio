@@ -47,7 +47,7 @@ const Skills = () => {
       <div className='flex flex-wrap justify-center gap-6 mt-16'>
         {skills.map((skil, i) => {
             return (
-                <Tilt key={skil.name} scale={1.5} transitionSpeed={400}>
+                <Tilt key={skil.name} scale={1.5} transitionSpeed={100}>
                     <div 
                       data-aos="flip-right" 
                       data-aos-anchor-placement="top-center" 

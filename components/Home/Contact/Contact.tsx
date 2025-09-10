@@ -14,7 +14,7 @@ const Contact = () => {
             Schedule a call with me to see if I can help
           </h1>
           <p className='text-gray-400 mt-6 text-base sm:text-lg'>
-            Reach out to me today and let&aposs discuss how I can help you achieve your goals.
+            Reach out to me today and let&apos;s discuss how I can help you achieve your goals.
             <br /> EVERY TIMEE!
           </p>
           {/* INFO */}
@@ -66,6 +66,33 @@ const Contact = () => {
   </a>
 </div>
 
+{/* SHARE BUTTONS */}
+<div className="flex items-center mt-6 space-x-4">
+  <p className="text-gray-400 font-medium">Share:</p>
+
+  {/* Facebook */}
+  <a
+    href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent("https://portfolio-mu-gold-80.vercel.app/")}`}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="w-10 h-10 flex items-center justify-center rounded-full bg-blue-600 hover:bg-blue-700 transition"
+  >
+    <FaFacebook className="text-white w-5 h-5" />
+  </a>
+
+  {/* LinkedIn */}
+  <a
+    href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent("https://portfolio-mu-gold-80.vercel.app/")}`}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="w-10 h-10 flex items-center justify-center rounded-full bg-blue-500 hover:bg-blue-600 transition"
+  >
+    <FaLinkedin className="text-white w-5 h-5" />
+  </a>
+</div>
+
+
+
         </div>
         {/* FORM
         <form action={sendContactEmail}>
@@ -111,6 +138,9 @@ const Contact = () => {
   data-aos="zoom-in"
   className='p-5 rounded-lg flex items-center justify-center min-h-[200px] w-full'
 >
+
+
+  
   <Link
     href="https://linktr.ee/trabelsi.emna"
     target="_blank"
